@@ -1,0 +1,60 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ffdde1, #ee9ca7);
+    color: #4a0033;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #b30059;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.poema {
+    font-style: italic;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+button, a.btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background: #b30059;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover, a.btn:hover {
+    background: #ff3385;
+    transform: scale(1.05);
+}
+
+.lyrics {
+    text-align: left;
+    white-space: pre-line;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
